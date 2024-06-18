@@ -17,7 +17,14 @@
     gtag('config', 'G-6ZCDQQZSWC');
 </script>
 
-
+<!-- Create one update function for each consent parameter -->
+<script>
+  function consentGrantedAdStorage() {
+    gtag('consent', 'update', {
+      'ad_storage': 'granted'
+    });
+  }
+</script>
 
     
     <!-- Google Tag Manager -->
@@ -27,19 +34,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KMKHLPCG');</script>
 <!-- End Google Tag Manager -->
-
-
-    
-
-
-<!-- Create one update function for each consent parameter -->
-<script>
-  function consentGrantedAdStorage() {
-    gtag('consent', 'update', {
-      'ad_storage': 'granted'
-    });
-  }
-</script>
 
 
 
